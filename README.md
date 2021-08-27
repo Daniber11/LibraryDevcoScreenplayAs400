@@ -40,7 +40,7 @@
   Terminal 3270 > co.com.devco.automation.screenplay.as400.screen3270
  ```
 
-  ###Interacciones
+ ### Interactions
 
   Dentro de estos paquetes tendremos deferentes interacciones que nos pemitiras de manera sencilla interactual con nuestra termininal AS400 ya sea 5250 o 3270
   
@@ -98,5 +98,24 @@
   ```
   
   >Nota: ver las teclas existentes para la terminal 5250 o 3270.
+  
+  <br>
+  
+  ### Questions
+  
+  Dentro de los respectivos paquetes de cada teminal tendremos una forma de obtener texto al momento de realizar la prueba e interactual con el sistema
+  
+  ```
+   Text.of(Target)
+  ```
+
+  > :warning: El target es necesario que al momento de declarar la forma en la que sera ubicado este debe ser mediante **coordenadas** mas no por etiqueta.
+  
+  <br>
+  
+  ### Target
+  
+  Al igual que en las automatizaciones para paginas web o aplicaciones moviles al momento de queder interactual con nuestra terminal tendremos que indicarle a nuestra prueba     con que elemento queremos interactual para esto tenemos nuestro propio modo de generar nuestros Target donde podremos indicar si queremos usarlos mediante etiqueta o         coordenadas.
+  
   
   
