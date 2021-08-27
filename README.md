@@ -40,8 +40,11 @@
   Terminal 3270 > co.com.devco.automation.screenplay.as400.screen3270
  ```
 
+  ###Interacciones
 
   Dentro de estos paquetes tendremos deferentes interacciones que nos pemitiras de manera sencilla interactual con nuestra termininal AS400 ya sea 5250 o 3270
+  
+  <br>
   
   1. Inicio de conexion con terminal
   
@@ -62,6 +65,8 @@
   Session.withHost(String).andPort(Integer)  
   ```
   
+  <br>
+
   2. Ingresar valor en campo editable
   
   En este caso tanto para ambas terminales la interacción se invoca de la misma manera solo que cada uno se encuentra ubicada en el paquete correspondiente a la terminal que se este trabajando
@@ -71,4 +76,27 @@
  ```
   
   >Nota: ver creacion de objeto tipo Target
+  
+  <br>
+  
+  3. Oprimir Tecla o envio de caracteres
+  
+  Al igual que el Enter para esta inteccion para las dos terminales se maneja de la misma manera pero cada uno se encuentra en su respectivo paquete de la terminal que se este usando
+  
+  * Terminar 5250
+  
+  ```
+  Hit.the(KeysScreen5250)
+  Hit.the(String)
+  ```
+  
+  * Terminal 3270
+  
+  ```
+  Hit.the(KeysScreen3270)
+  Hit.the(String)
+  ```
+  
+  >Nota: ver las teclas existentes para la terminal 5250 o 3270.
+  
   
