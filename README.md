@@ -6,4 +6,11 @@
   
   ---
   
- > Esta libreria nos permitira realizar la interaccion de nuestras automatizaciones de serenity bdd con java en sistemas AS400
+ > Esta libreria nos permitira interactuar con sistemas AS400 implementando serenity bdd con java.
+  
+  Nos proporciona un conjunto de interacciones las cuales, permitiran generar artefactos de pruebas automaticas de manera sencilla con un sistema AS400.
+  
+  Como libreria nos permitira eliminar la dependencia de un sistema de emulasion de sesiones AS400 dado que la misma realizara la conexion e interaccion mediante conexion telnel
+  
+  
+   
