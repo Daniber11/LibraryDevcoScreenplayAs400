@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="login in terminal pub400" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-31T21:00:36" hostname="MacBook-Pro-de-Gabriel.local" time="8.452">
+  <properties/>
+  <testcase name="succesfull login in server as400 pub400" classname="login in terminal pub400" time="8.452"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
